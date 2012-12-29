@@ -1,0 +1,7 @@
+name          'garethr-spotify'
+version       '0.0.1'
+author        'garethr'
+license       'Apache License, Version 2.0'
+summary       'Module to manage spotify on Ubuntu'
+project_page  'https://github.com/garethr/garethr-spotify'
+dependency    'puppetlabs/apt'
