@@ -3,8 +3,12 @@ class spotify {
     location          => 'http://repository.spotify.com',
     release           => 'stable',
     repos             => 'non-free',
-    key               => '94558F59',
-    include_src       => false,
+    key               => {
+      id              => 'D2C19886',
+    },
+    include           => {
+      src             => false,
+    },
   }
 
   package { 'spotify-client':
