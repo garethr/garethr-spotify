@@ -4,7 +4,7 @@ class spotify {
     release           => 'stable',
     repos             => 'non-free',
     key               => {
-      id              => '94558F59',
+      id              => 'D2C19886',
     },
     include           => {
       src             => false,
